@@ -3023,25 +3023,8 @@ h3 {
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
 
 .breadcam_bg {
-    background-image: url(../img/banner/bradcam.png);
+    background-image: url(../img/Repeat\ Grid\ 1@3x.png);
 }
-
-
-/* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
-
-.breadcam_bg_1 {
-    background-image: url(../img/banner/bradcam2.png);
-}
-
-
-/* line 7, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
-
-.breadcam_bg_2 {
-    background-image: url(../img/banner/bradcam3.png);
-}
-
-
-/* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
 
 .bradcam_area {
     background-size: cover;
