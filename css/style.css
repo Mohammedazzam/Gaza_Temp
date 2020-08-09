@@ -559,7 +559,7 @@ h3 {
 
 .section_padding {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 40px;
 }
 
 @media (max-width: 767px) {
