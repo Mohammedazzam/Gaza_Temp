@@ -7749,12 +7749,12 @@ h6 {
 
 /* line 1314, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
 
-.comments-area {
+
+/* .comments-area {
     background: transparent;
-    border-top: 1px solid #eee;
     padding: 45px 0;
-    margin-top: 50px;
-}
+    margin-top: 10px;
+} */
 
 @media (max-width: 414px) {
     /* line 1314, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
@@ -7767,7 +7767,7 @@ h6 {
 /* line 1325, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
 
 .comments-area h4 {
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     font-size: 18px;
 }
 
@@ -8556,4 +8556,55 @@ slider.carousel-inner.overlay {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
     margin-top: 15px;
     color: #777;
+}
+
+
+/*************************Slider Image*******************/
+
+.carousel-indicators {
+    position: static;
+    .item {
+        &.active {
+            background: transparent;
+            img {
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+
+/***/
+
+.causes_content .progress-bar {
+    background-color: #3CC78F;
+}
+
+
+/***/
+
+
+/* Social Icons */
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.social_links .social-icons i {
+    color: #3CC78F;
 }
