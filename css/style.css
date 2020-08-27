@@ -2539,8 +2539,8 @@ h3 {
 /* line 9, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
 
 .footer .footer_top {
-    padding-top: 130px;
-    padding-bottom: 110px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 767px) {
@@ -8745,4 +8745,13 @@ a.animated-button.victoria-four:hover:after {
     color: #fff
 }
 
-.footer .copy-right_text
+
+/************************************************************/
+
+.popular_causes_area a {
+    color: black;
+}
+
+.section-top-border a {
+    color: black;
+}
